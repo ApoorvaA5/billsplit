@@ -1,0 +1,391 @@
+#bill{
+    position: absolute;
+    width:87px;
+    height:25px;
+    left:596px;
+    top:132px;
+    font-family: 'DM Sans';
+    font-size: normal;
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 27px;
+    letter-spacing: 0.500cm;
+    color: #673cff
+}
+#split{
+           
+    position: absolute;
+    width:107px;
+    height:17px;
+    left:586px;
+    top:161px;
+    font-family: 'DM Sans';
+    font-size: normal;
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 27px;
+    letter-spacing: 0.500cm;
+    color: #673cff;
+}
+#rectangle{
+    position:absolute;
+    width:818px;
+    height:428px;
+    left:235px;
+    top:252px;
+    border-radius: 21px;
+    box-shadow: -1px 6px 55px rgba(0,0,0,0.16);
+    background: white;
+}
+body{
+    background-color: #D6BCFF;
+}
+#bill-input{
+    position: absolute;
+    width:337px;
+    height:43px;
+    left: 273px;
+    top: 323px;
+    background: rgba(182,172,196,0.53);
+    border-radius: 3px;
+}
+#label{
+    position: absolute;
+    width:98px;
+    height:16px;
+    left:273px;
+    top:395px;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 800;
+    font-style: normal;
+    line-height: 16px;
+    letter-spacing: 0.045em;
+    color: #9C60FF;
+    background-color: white;
+    
+}
+
+#tip1{
+    position: absolute;
+    width:106px;
+    height:44px;
+    left:273px;
+    top:429px;
+    background: #9C60FF;
+    border-radius: 4px;
+}
+#tip-2{
+    position: absolute;
+    width:106px;
+    height:44px;
+    left:388px;
+    top:429px;
+    background: #9C60FF;
+    border-radius: 4px;
+}
+
+#tip-3{
+    position: absolute;
+    width:106px;
+    height:44px;
+    left:503px;
+    top:429px;
+    background: #9C60FF;
+    border-radius: 4px;
+}
+
+#tip-4{
+    position: absolute;
+    width:106px;
+    height:44px;
+    left:273px;
+    top:485px;
+    background: #9C60FF;
+    border-radius: 4px;
+}
+
+#tip-5{
+    position: absolute;
+    width:106px;
+    height:44px;
+    left:388px;
+    top:485px;
+    background: #9C60FF;
+    border-radius: 4px;
+}
+
+#tip-6{
+    position: absolute;
+    width:106px;
+    height:44px;
+    left:503px;
+    top:485px;
+    background: #9C60FF;
+    border-radius: 4px;
+    
+}
+#people{
+    position: absolute;
+    width:131px;
+    height:16px;
+    left:273px;
+    top:576px;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 800;
+    font-style: normal;
+    line-height: 16px;
+    letter-spacing: 0.045em;
+    color: #9C60FF;
+    background-color: white;
+}
+
+
+#right-section{
+    position: absolute;
+    height: 370px;
+width: 367px;
+left: 654px;
+top: 280px;
+border-radius: 11px;
+background: #9C60FF;
+
+}
+#amount{
+    position: absolute;
+    width:37px;
+    height:12px;
+    left:273px;
+    top:300px;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 800;
+    font-style: normal;
+    line-height: 16px;
+    letter-spacing: 0.045em;
+    color: #9C60FF;
+    background-color: white;
+}
+#reset{
+    position: absolute;
+    height: 43px;
+    width: 295px;
+    left: 50px;
+    top: 290px;
+    border-radius: 5px;
+    background: #C39FFF;
+
+    
+      
+}
+#right-1{
+    position: absolute;
+    height: 4opx;
+    width: 295px;
+    left: 40px;
+    top: 40px;
+    border-radius: nullpx;
+    
+font-family: 'Times New Roman', Times, serif;
+font-size: 16px;
+font-weight: 600;
+line-height: 17px;
+letter-spacing: 0.045em;
+text-align: left;
+color: #F3E4FF;
+
+
+
+}
+
+
+.sum{
+    position: absolute;
+    height: 20px;
+width: 15px;
+left: 503px;
+top: 607px;
+border-radius: null;
+font-family:monospace;
+font-size: 24px;
+font-weight: 400;
+line-height: 30px;
+letter-spacing: 0.01em;
+text-align: left;
+
+}
+#people-input{
+    position: absolute;
+    height: 43px;
+width: 337px;
+left: 273px;
+top: 599px;
+border-radius: 3px;
+background: #B6ACC387;
+
+}
+
+
+#Increment1{
+    position: absolute;
+    height: 44px;
+width: 40px;
+left: 500px;
+top: 601px;
+border-radius:0%;
+border: 1px solid #8E8E8E;
+
+
+
+}
+#Increment1 button:hover{
+    cursor:pointer;
+}
+#count{
+    position: absolute;
+    height: 21px;
+width: 12px;
+left: 547px;
+top: 608px;
+border-radius:0%;
+
+font-family:monospace;
+font-size: 21px;
+font-weight: 700;
+line-height: 26px;
+letter-spacing: 0.01em;
+text-align: left;
+color: #9C60FF;
+}
+#selector{
+    position: absolute;
+    height: 43px;
+width: 117px;
+left: 497px;
+top: 600px;
+border-radius: 3px;
+background: white;
+border-radius: 3px;
+border: 1px solid #8E8E8E;
+}
+
+
+
+
+
+
+
+#Decrement1{
+    position: absolute;
+    height: 44px;
+width: 40px;
+left: 576px;
+top: 601px;
+border-radius:0%;
+border:1px solid #8E8E8E;
+
+
+}
+
+#tip-per-person{
+    position:absolute;
+    height: 38px;
+width: 100px;
+left: 188px;
+top: 0px;
+border-radius: nullpx;
+font-family: 'Times New Roman', Times, serif;
+font-style: normal;
+font-weight: 600;
+font-size: 40px;
+line-height:42px;
+letter-spacing: 0.1em;
+color:white;
+}
+
+#person1{
+    position:absolute;
+    height: 10px;
+width: 59px;
+left: 20px;
+top: 15px;
+border-radius: nullpx;
+font-family: 'Times New Roman', Times, serif;
+font-size: 13px;
+font-weight: 600;
+line-height: 14px;
+letter-spacing: 0.045em;
+text-align: left;
+color: white;
+
+}
+#right-2{
+    position: absolute;
+    height: 4opx;
+    width: 295px;
+    left: 40px;
+    top: 50px;
+    border-radius: nullpx;
+    
+font-family: 'Times New Roman', Times, serif;
+font-size: 16px;
+font-weight: 600;
+line-height: 17px;
+letter-spacing: 0.045em;
+text-align: left;
+color: #F3E4FF;
+}
+
+
+
+#total-per-person{
+    position:absolute;
+    height: 30px;
+width: 100px;
+left: 188px;
+top: 60px;
+border-radius: nullpx;
+font-family: 'Times New Roman', Times, serif;
+font-style: normal;
+font-weight: 600;
+font-size: 40px;
+line-height:42px;
+letter-spacing: 0.1em;
+color:white;
+}
+
+#person2{
+    position:absolute;
+    height: 10px;
+width: 59px;
+left: 20px;
+top: 65px;
+border-radius: nullpx;
+font-family: 'Times New Roman', Times, serif;
+font-size: 13px;
+font-weight: 600;
+line-height: 14px;
+letter-spacing: 0.045em;
+text-align: left;
+color: white;
+}
+
+#right{
+    position: absolute;
+    height: 4opx;
+    width: 295px;
+    left: 0px;
+    top: 50px;
+    border-radius: nullpx;
+    
+font-family: 'Times New Roman', Times, serif;
+font-size: 16px;
+font-weight: 600;
+line-height: 17px;
+letter-spacing: 0.045em;
+text-align: left;
+color: #F3E4FF;
+}
+
+

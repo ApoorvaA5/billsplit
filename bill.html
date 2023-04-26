@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bill split</title>
+    <link rel="stylesheet" href="bill.css">
+</head>
+<body>
+    <div>
+    <h1 id="bill">BILL</h1>
+    <h1 id="split">SPLIT</h1>
+    
+    
+    </div>
+    <div id="rectangle">
+    
+    </div>
+
+    <input type="text" id="bill-input" placeholder="₹" value="0" oninput="calculateBill()"><br><br>
+    <label id="label">Select Tip %</label>
+    <label id="amount">Bill</label>
+    <button id="tip1" onclick="calculateBill(5)" >5%</button>
+    <button id="tip-2"onclick="calculateBill(10)" >10%</button>
+    <button id="tip-3" onclick="calculateBill(15)">15%</button>
+    <button id="tip-4"onclick="calculateBill(25)">25%</button>
+    <button id="tip-5"onclick="calculateBill(50)">50%</button>
+    <button id="tip-6"onclick="calculateBill(75)">75%</button>
+    <label id="people">Number of People</label><br>
+     
+    <input type="number" id="people-input" placeholder="1" oninput="calculateBill()">
+    <p1 id="count">0</p1>
+        
+        <button id="Increment1" onclick="Increment(1)">+</button>
+
+        
+        <button id="Decrement1"onclick="Decrement(1)">-</button>
+
+
+
+    <div id="right-section">
+        <div id="right-1">
+            <div>Tip Amount</div> 
+            <div id="person1">/person</div>  
+              <div id="tip-per-person">₹ 0.00</div>
+        </div>
+    
+    <div id="right-2">
+        <div id="right">Total</div>
+        <div id="person2">/person</div>
+    <div id="total-per-person">₹ 0.00</div>
+    </div>
+
+    
+<button id="reset" onclick="reset()">reset</button>
+</div>
+
+
+
+
+
+<script src="bill.js"></script>
+
+   
+
+</body>
+</html>
